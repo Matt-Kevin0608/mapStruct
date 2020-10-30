@@ -1,11 +1,11 @@
-package com.thoughtworks.mapstruct.simple;
+package com.thoughtworks.mapstruct.product;
 
 import lombok.Builder;
 import lombok.Getter;
 
 @Builder
 @Getter
-public class ProductDto {
+public class Product {
     private String name;
     private String company;
     private int count;
