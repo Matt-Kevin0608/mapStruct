@@ -1,8 +1,5 @@
 package com.thoughtworks.mapstruct.product;
 
-import com.thoughtworks.mapstruct.product.Product;
-import com.thoughtworks.mapstruct.product.ProductDto;
-import com.thoughtworks.mapstruct.product.ProductMapper;
 import org.junit.Assert;
 import org.junit.Test;
 
