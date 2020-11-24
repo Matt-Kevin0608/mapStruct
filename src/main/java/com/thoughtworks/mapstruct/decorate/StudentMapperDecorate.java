@@ -1,7 +1,6 @@
 package com.thoughtworks.mapstruct.decorate;
 
 import com.thoughtworks.mapstruct.decorate.repo.SchoolRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 
 public class StudentMapperDecorate implements StudentMapper{
 
