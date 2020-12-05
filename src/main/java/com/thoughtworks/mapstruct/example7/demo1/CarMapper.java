@@ -13,7 +13,7 @@ public interface CarMapper {
 
     @Mapping(target = "manufacturer", source = "make")
     @Mapping(target = "seatCount", source = "numberOfSeat")
-    com.thoughtworks.mapstruct.example3.car.CarDto toDto(com.thoughtworks.mapstruct.example3.car.Car car);
+    CarDto toDto(Car car);
 
     @InheritInverseConfiguration
     Car toDomainModel(CarDto carDto);

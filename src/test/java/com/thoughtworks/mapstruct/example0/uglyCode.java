@@ -22,9 +22,9 @@ public class uglyCode {
         studentDto.setClassroom(student.getClassroom());
         studentDto.setGender(student.getGender());
         studentDto.setHobbies(student.getHobbies());
-        student.setId(student.getId());
-        student.setName(student.getName());
-        student.setTeacher(student.getTeacher());
+        studentDto.setId(student.getId());
+        studentDto.setName(student.getName());
+        studentDto.setTeacher(student.getTeacher());
         //...无穷无尽的get set
 
         Assert.assertEquals(student.getAge(), studentDto.getAge());
