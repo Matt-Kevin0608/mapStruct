@@ -1,7 +1,6 @@
 package com.thoughtworks.mapstruct.example9;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor

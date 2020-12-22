@@ -7,7 +7,6 @@ import lombok.Setter;
 @Builder
 @Getter
 public class ProductDto {
-    @Setter
     private String name;
     private String company;
     private int count;
