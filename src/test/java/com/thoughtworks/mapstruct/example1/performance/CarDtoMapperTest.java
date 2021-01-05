@@ -13,10 +13,10 @@ public class CarDtoMapperTest {
     @Test
     public void performanceTest() {
         Car car = buildCar();
+        System.out.println(mapStructPerformanceResult(car));
         System.out.println(manualPerformance(car));
         System.out.println(modelMapperPerformanceResult(car));
         System.out.println(springBeanUtilsPerformanceResult(car));
-        System.out.println(mapStructPerformanceResult(car));
 
     }
 
