@@ -1,9 +1,5 @@
 package com.thoughtworks.mapstruct.example7.demo2;
 
-import com.thoughtworks.mapstruct.example1.performance.Car;
-import com.thoughtworks.mapstruct.example1.performance.CarDto;
-import com.thoughtworks.mapstruct.example1.performance.Engine;
-import com.thoughtworks.mapstruct.example1.performance.EngineDto;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;

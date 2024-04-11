@@ -8,5 +8,5 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class EngineDto {
-    private String type;
+    private String typeName;
 }
